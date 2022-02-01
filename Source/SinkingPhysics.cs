@@ -16,7 +16,7 @@ namespace SinkingPhysicsOverhaul
      * Implements IUserMode interface and utilizes Harmony.
      * 
      * Author: ждун 
-     * Modified by: ii and salamander
+     * Modified by: salamander, ii, and Mal0 ver1.0.0
      **/
     [NonSerializedInGameState]
     public class SinkingPhysics : IUserMod
