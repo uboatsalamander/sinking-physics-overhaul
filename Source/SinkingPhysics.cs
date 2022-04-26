@@ -27,7 +27,7 @@ namespace SinkingPhysicsOverhaul
             try
             {
                 Debug.Log($"{Constants.MOD_TAG} version: {Constants.VERSION}");                
-                HarmonyInstance harmony = HarmonyInstance.Create("com.dws.uboat");
+                HarmonyInstance harmony = HarmonyInstance.Create("com.umg.uboat.sinking-physics-overhaul");
                 harmony.PatchAll();
                 DevConsole.AddListener("TargetInfo", ConsoleCommands.TargetInfo);
                 DevConsole.AddListener("TargetRotation", ConsoleCommands.TargetRotation);
