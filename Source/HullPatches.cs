@@ -121,7 +121,7 @@ namespace SinkingPhysicsOverhaul
                 Hull __instance, Vector3 __state)
             {
 
-                Debug.Log("ParentEntity.name = " + __instance.ParentEntity.name + " / category = " + __instance.ParentEntity.Blueprint.Type.CategoryString);
+                //Debug.Log("ParentEntity.name = " + __instance.ParentEntity.name + " / category = " + __instance.ParentEntity.Blueprint.Type.CategoryString);
 
                 if (ignoreEntities(__instance.ParentEntity.name)) return;
                 //if (__instance.ParentEntity is Ship && ignoreEntities(__instance.ParentEntity.name)) return;
