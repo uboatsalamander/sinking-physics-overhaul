@@ -21,8 +21,7 @@ namespace SinkingPhysicsOverhaul
                     if (observation.Entity.SandboxEntity != null && observation.Entity.ReceivedDamages.Count > 0)
                     {                        
                         return false;
-                    }
-                        
+                    }       
                 }
                 // make sure we only stop further execution when really necessary
                 return true;
